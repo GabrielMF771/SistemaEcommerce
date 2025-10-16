@@ -2,7 +2,7 @@ package ucb.estudo.dao;
 
 import java.sql.Connection;
 
-public interface ConexaoDB {
+public interface ConexaoMySQLInterface {
 
     Connection obterConexao() throws Exception;
 

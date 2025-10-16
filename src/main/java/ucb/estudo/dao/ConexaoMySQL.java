@@ -4,10 +4,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConexaoMySQL implements ConexaoDB{
-    private static final String URL = "jdbc:mysql://localhost:3307/system_biblioteca?useSSL=false&serverTimezone=UTC";
+public class ConexaoMySQL implements ConexaoMySQLInterface {
+    private static final String URL = "jdbc:mysql://localhost:3306/ecommerce";
     private static final String USUARIO = "root";
-    private static final String SENHA = "catolica";
+    private static final String SENHA = "gabriel";
 
     @Override
     public Connection obterConexao() throws Exception {
