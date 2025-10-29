@@ -1,4 +1,4 @@
-#Sistema E-commerce em Java
+# Sistema E-commerce em Java
 
 Desenvolva um sistema de gerenciamento de produtos para um e-commerce, com **conexão a banco de dados MySQL** e operações básicas de listagem de produtos.
 
